@@ -1,3 +1,4 @@
+
 $("#messageState").on("change", (x) => {
   $(".message").removeClass("openNor").removeClass("closeNor");
   if ($("#messageState").is(":checked")) {
